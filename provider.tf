@@ -11,3 +11,11 @@ provider "aws" {
   region = "ap-south-1"
 }
 
+terraform {
+  backend "s3" {
+    # Replace this with your bucket name!
+    bucket = "dhirubucket"
+    key    = "terraform.tfstate"
+    region = "us-east-1"
+  }
+}
