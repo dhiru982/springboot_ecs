@@ -16,6 +16,6 @@ terraform {
     # Replace this with your bucket name!
     bucket = "dhirubucket"
     key    = "terraform.tfstate"
-    region = "us-east-1"
+    region = "ap-south-1"
   }
 }
